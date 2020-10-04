@@ -5,6 +5,7 @@ public class Main {
         Subtract moreNumbers = new Subtract(5,4);
         int result = numbers.doAddition();
         int result2 = moreNumbers.doSubtraction();
-        System.out.println(result + " " + result2 );
+        System.out.println("Result 1: " + result);
+	System.out.println("Result 2: " + result2);
     }
 }
