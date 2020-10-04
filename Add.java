@@ -8,6 +8,6 @@ public class Add {
     }
 
     public int doAddition(){
-        return this.num1 + this.num1;
+        return this.num1 + this.num2;
     }
 }
