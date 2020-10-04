@@ -6,5 +6,10 @@ public class Main {
         int result = numbers.doAddition();
         int result2 = moreNumbers.doSubtraction();
         System.out.println(result + " " + result2 );
+        
+        Multiply evenMoreNumbers = new Multiply(6, 5);
+        int result3 = evenMoreNumbers.doMultiplication();
+        System.out.println(result3);
+        
     }
 }
